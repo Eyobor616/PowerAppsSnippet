@@ -20,7 +20,7 @@ If(varLoadGroups = true,
 
         ForAll(Sequence(10),
             If(! IsBlank(varGroups.'@odata.nextLink'),
-            Select(Label16) //Parent.OnLoad_Groups()
+            Select(btnCodeRepeat) //Parent.OnLoad_Groups()
             ));
 
 
